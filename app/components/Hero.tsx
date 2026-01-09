@@ -51,17 +51,31 @@ export default function Hero() {
             </div>
             <div className="relative w-[320px] h-80 mx-auto">
             {/* Profile Image */}
-            <Image
+            {/* <Image
                 src="/profile.png"
                 alt="Hay Mar Kyaw"
                 width={400}
                 height={400}
                 className="object-cover rounded-full "
-            />
+            /> */}
+            <div className="relative w-full h-full mx-auto overflow-hidden ">
+                        <Image
+                          src="/blob.png"
+                          alt="Hay Mar Kyaw"
+                          fill
+                          className="object-cover"
+                        />
+                        <Image
+                          src="/profile.png"
+                          alt="Hay Mar Kyaw"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
 
             {/* Skills */}
             {[
-                { name: "React.js", top: "-10%", left: "30%" },
+                { name: "React.js", top: "-7%", left: "37%" },
                 { name: "Next.js", top: "20%", right: "-15%" },
                 { name: "Laravel", bottom: "15%", right: "-10%" },
                 { name: "Vue.js", bottom: "-10%", left: "25%" },
