@@ -9,11 +9,11 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto pt-20">
             <div className="mb-12 text-center">
             <p className="font-medium mb-3">
-                <span className="text-orange-500">—</span> Hello There!
+                <span className="text-[#1A3D64]">—</span> Hello There!
             </p>
 
             <h1 className="text-4xl md:text-6xl font-bold leading-tight text-gray-900">
-                I’m <span className="text-orange-500">Hay Mar Kyaw</span>
+                I’m <span className="text-[#1A3D64]">Hay Mar Kyaw</span>
             </h1>
 
             <p className="mt-4 text-gray-600 text-lg">
@@ -36,14 +36,14 @@ export default function Hero() {
                     className="flex items-center gap-2 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
                     >
                     Portfolio
-                    <span className="bg-orange-500 w-6 h-6 rounded-full flex items-center justify-center text-sm">
+                    <span className="bg-[#1A3D64] w-6 h-6 rounded-full flex items-center justify-center text-sm">
                         +
                     </span>
                     </a>
 
                     <a
                     href="#contact"
-                    className="px-6 py-3 border border-gray-300 rounded-full hover:border-orange-500 hover:text-orange-500 transition"
+                    className="px-6 py-3 border border-gray-300 rounded-full hover:border-[#1A3D64] hover:text-[#1A3D64] transition"
                     >
                     Hire Me
                     </a>

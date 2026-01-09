@@ -5,11 +5,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-12 flex items-center justify-between">
         
         <div className="text-xl font-bold">
-          <span className="text-orange-500">H</span>ayMar
+          <span className="text-[#1A3D64]">H</span>ayMar
         </div>
 
         <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-700">
-          <a href="#" className="text-orange-500">Home</a>
+          <a href="#" className="text-[#1A3D64]">Home</a>
           <a href="#services">Services</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
