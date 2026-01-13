@@ -22,14 +22,14 @@ export default function Navbar() {
           <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-700">
             <Link
               href="#"
-              className="relative hover:text-[#1A3D64] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#1A3D64] hover:after:w-full after:transition-all after:duration-300"
+              className="relative hover:text-[#1A3D64] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#1A3D64] hover:after:w-full after:transition-all after:duration-300"
             >
               Home
             </Link>
 
             <Link
               href="#projects"
-              className="relative hover:text-[#1A3D64] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#1A3D64] hover:after:w-full after:transition-all after:duration-300"
+              className="relative hover:text-[#1A3D64] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#1A3D64] hover:after:w-full after:transition-all after:duration-300"
             >
               Projects
             </Link>

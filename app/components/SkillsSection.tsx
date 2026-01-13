@@ -40,7 +40,7 @@ export default function SkillsSection() {
   const [active, setActive] = useState<keyof typeof categories>("Frontend");
 
   return (
-    <section id="skills" className="py-24 bg-gradient-to-b from-white to-gray-50">
+    <section id="skills" className="py-24 bg-linear-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto px-6 lg:px-20">
 
         {/* Header */}
