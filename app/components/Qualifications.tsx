@@ -6,7 +6,7 @@ export default function Qualifications() {
         
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-gray-500">Here’s My</p>
+          <p className="text-gray-500">— Here’s My</p>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="text-[#1A3D64]">Qualifications</span>
           </h2>

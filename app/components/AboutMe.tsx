@@ -1,6 +1,5 @@
 // app/components/About.tsx
 import { Mail, MapPin, Phone, User } from "lucide-react";
-import Image from "next/image";
 import AboutTitle from "./AboutTitle";
 
 
@@ -9,7 +8,9 @@ export default function About() {
     <section id="about" className="bg-white py-20">
       {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-gray-500">About Me</p>
+          <p className="text-gray-500">
+            — About Me
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="text-[#1A3D64]">Why Choose Me</span>
           </h2>
