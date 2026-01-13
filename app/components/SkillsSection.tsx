@@ -45,12 +45,11 @@ export default function SkillsSection() {
 
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-widest text-gray-500 mb-3">
-            Expertise
-          </p>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
-            Skills & Technologies
+          <p className="text-gray-500">— Expertise</p>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            <span className="text-[#1A3D64]">Skills & Technologies</span>
           </h2>
+          
         </div>
 
         {/* Tabs */}

@@ -9,16 +9,15 @@ export default function GetInTouch() {
 
         {/* Section Header */}
         <div className="text-center mb-14">
-          <p className="text-sm uppercase tracking-widest text-gray-500 mb-3">
-            Contact
-          </p>
-          <h2 className="text-4xl font-bold text-gray-900">
-            Let’s Work Together
+            <p className="text-gray-500">— Contact</p>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            <span className="text-[#1A3D64]">Let’s Work Together</span>
           </h2>
-          <p className="mt-4 text-gray-600 max-w-xl mx-auto">
+          <p className="text-gray-600 mt-5 max-w-2xl mx-auto">
             I’m open to full-time roles, freelance projects, or collaborations.
             Feel free to reach out directly.
           </p>
+          
         </div>
 
         {/* Contact Cards */}
@@ -83,7 +82,7 @@ export default function GetInTouch() {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:38komal@gmail.com"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#1A3D64] text-white font-medium hover:bg-[#163457] transition"
           >
             Start a Conversation →
