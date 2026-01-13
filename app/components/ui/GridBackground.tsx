@@ -7,6 +7,7 @@ import React from "react";
 import { FaLaravel, FaReact, FaVuejs } from "react-icons/fa";
 import { SiFirebase, SiMysql, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { TypewriterEffectWord } from "./TypeWriterWord";
+import Link from "next/link";
 
 export function GridBackground() {
   return (
@@ -48,7 +49,7 @@ export function GridBackground() {
                     {/* CTA BUTTONS */}
                     <div className="flex gap-4 mt-24">
                         
-                        <button
+                        <Link href="#projects"
                         className="cursor-pointer relative bg-white/10 py-2 rounded-full min-w-36  group max-w-full h-14 flex items-center justify-start hover:bg-[#1A3D64] text-white transition-all duration-[0.8s] ease-[cubic-bezier(0.510,0.026,0.368,1.016)] shadow-[inset_1px_2px_5px_#00000080]"
                         >
                         <div className="absolute flex px-1 py-0.5 justify-start items-center inset-0">
@@ -77,33 +78,33 @@ export function GridBackground() {
                             </div>
                         </div>
                         <div
-                            className="pl-[4.3rem] pr-[1.1rem] group-hover:pl-[1.1rem] group-hover:pr-[3.4rem] transition-all duration-1000 ease-[cubic-bezier(0.510,0.026,0.368,1.016)] group-hover:text-black text-[#1A3D64] "
+                            className="pl-[4.3rem] pr-[1.1rem] group-hover:pl-[1.1rem] group-hover:pr-[3.4rem] transition-all duration-1000 ease-[cubic-bezier(0.510,0.026,0.368,1.016)] group-hover:text-white text-[#1A3D64] "
                         >
                             Portfolio
                         </div>
-                        </button>
-                        <button
-                    className="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-[#1A3D64] rounded-full border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
-                    >
-                    <span className="relative z-80">Hire Me</span>
+                        </Link>
+                        <Link href="#contact"
+                            className="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-[#1A3D64] rounded-full border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
+                            >
+                            <span className="relative z-80">Hire Me</span>
 
-                    <span
-                        className="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"
-                    ></span>
+                            <span
+                                className="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"
+                            ></span>
 
-                    <span
-                        className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute h-[20%] rounded-tl-full border-l-2 border-t-2 top-0 left-0"
-                    ></span>
-                    <span
-                        className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute group-hover:h-full h-[60%] rounded-tr-full border-r-2 border-t-2 top-0 right-0"
-                    ></span>
-                    <span
-                        className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute h-[60%] group-hover:h-[90%] rounded-bl-full border-l-2 border-b-2 left-0 bottom-0"
-                    ></span>
-                    <span
-                        className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute h-[20%] rounded-br-full border-r-2 border-b-2 right-0 bottom-0"
-                    ></span>
-                        </button>
+                            <span
+                                className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute h-[20%] rounded-tl-full border-l-2 border-t-2 top-0 left-0"
+                            ></span>
+                            <span
+                                className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute group-hover:h-full h-[60%] rounded-tr-full border-r-2 border-t-2 top-0 right-0"
+                            ></span>
+                            <span
+                                className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute h-[60%] group-hover:h-[90%] rounded-bl-full border-l-2 border-b-2 left-0 bottom-0"
+                            ></span>
+                            <span
+                                className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#1A3D64] absolute h-[20%] rounded-br-full border-r-2 border-b-2 right-0 bottom-0"
+                            ></span>
+                        </Link>
 
                     </div>
                 </div>
