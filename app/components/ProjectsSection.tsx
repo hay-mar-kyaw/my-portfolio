@@ -13,34 +13,42 @@ export default function ProjectsSection() {
     {
       title: "Learning Management System",
       description:
-        "Modern LMS with node-based editor, reminders, and dynamic learning flows.",
-      image: "/projects/lms.jpg",
-      tech: ["Laravel", "React", "Inertia.js"],
-      live: "https://creativecodermm.com",
+        "Clean and intuitive UI designed for an e-learning experience.Focused on usability, accessibility, and responsive design across devices.",
+      image: "/projects/lms.png",
+      tech: ["Laravel", "Vue.js", "Inertia.js"],
+      live: "https://hay-mar-kyaw.github.io/hornbill-it/",
     },
     {
       title: "Cargo Shipment Platform",
       description:
         "Shipment tracking and cargo management system with admin dashboard.",
-      image: "/projects/cargo.jpg",
-      tech: ["Laravel", "Vue.js", "MySQL"],
+      image: "/projects/Cargo.png",
+      tech: ["Laravel", "Vue.js", "MySQL", "Tailwind"],
       live: "https://www.cargopromyanmar.com/app/login",
     },
     {
       title: "Restaurant Website",
       description:
         "High-performance, SEO-optimized restaurant website built with Next.js.",
-      image: "/restaurant.png",
-      tech: ["Next.js", "Tailwind"],
+      image: "/projects/restaurant.png",
+      tech: ["React", "Next.js", "Tailwind"],
       live: "https://mandalaystylerestaurant.sg",
     },
     {
-      title: "Restaurant Website 2",
+      title: "OPOM POS",
       description:
-        "High-performance, SEO-optimized restaurant website built with Next.js.",
-      image: "/restaurant.png",
-      tech: ["Next.js", "Tailwind"],
-      live: "https://mandalaystylerestaurant.sg",
+        "Modern POS system with a fast, responsive interface and secure backend APIs.Optimized for performance, scalability, and real-world business use",
+      image: "/projects/POS.png",
+      tech: ["Laravel","React", "Next.js", "Tailwind","MySQL"],
+      live: "https://opom-pos-nextjs.vercel.app/login",
+    },
+    {
+      title: "DJ Pack Myanmar",
+      description:
+        "Modern and visually engaging UI design for a DJ service platform.Focused on clean layout, responsive design, and smooth user experience.",
+      image: "/projects/DJPack.png",
+      tech: ["Laravel","Vue.js", "Tailwind"],
+      live: "https://www.djpackmm.com/",
     },
   ];
 
